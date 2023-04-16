@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(./assests/first-man2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+    height: 120px;
+    border-radius: 50%;
+    margin: 2rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.social-media {
+    display: flex;
+    column-gap: 1.5rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+
+}
+.social-media-items {
+    height: 30px;
+}
+
+#linkedin {
+    margin-top: 1rem;
+}
+#github {
+    margin-top: 3rem;
+}
+#instagram {
+    margin-top: 2rem;
+}
+#discord {
+    margin-top: 4rem;
+    background-color: rgb(31, 31, 138);
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+#twitter {
+    margin-top: 1rem;
+}
+#leetcode {
+    margin-top: 8.3rem;
+    height: 45px;
+}
+#reddit {
+    margin-top: 2rem;
+}
+
+.nav-list {
+    list-style: none;
+    /* font-family: sans-serif; */
+    /* font-weight: 700px; */
+}
+.nav-list-items {
+    list-style: none;
+    color: white;
+    padding-top: 12rem;
+    padding-left: 4rem;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list-items {
+    /* row-gap: 2rem; */
+    /* font-family: sans-serif;
+    font-weight: 700px; */
+    /* height: 20px; */
+    font-weight: bold;
+    font-size: medium;
+}

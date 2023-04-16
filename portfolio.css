@@ -1,0 +1,265 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* TODO */
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    /* TODO  -- line-height*/
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+
+a:focus, button:focus, input:focus, textarea:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+/* TODO */
+
+
+.header {
+    display: block;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 3);
+    height: 80px;
+}
+.header-content {
+    height: 100px;
+    display: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    /* margin-top: 1rem; */
+}
+.header-logo {
+    display: wrap;
+    display: flex;
+    align-items: center;
+    padding : 0 0 1rem 1rem;
+}
+.header-links {
+    display: wrap;
+    align-items: center;
+    /* display: inline-block; */
+    display: flex;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 2.2rem 3rem;
+}
+.header-img {
+    height: 50px;
+    /*width: 100px;
+    */width: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.header-link {
+    padding: 1rem;
+}
+.header-logo-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+.header-logo-img {
+    align-items: center;
+}
+
+
+
+/* main Section */
+
+
+/* First Section */
+
+.first-section {
+    height: 90vh;
+    position: relative;
+    background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)), url();
+    background-position: center;
+    background-image: cover;
+}
+
+.first-section-div {
+    display: flex;
+}
+.social-media {
+    margin: 7rem 0 0 .2rem;
+    /* row-gap: 20px; */
+    /* background-color: rgb(218, 189, 189); */
+    height: 100px;
+}
+.social-media-items {
+    display: flex;
+    height: 42px;
+    padding: 0.2rem;
+    background-color: rgb(229, 234, 238);
+    /* margin: 0.1rem; */
+}
+
+.intro {
+    align-items: center;
+    text-align: center;
+    padding: 10rem;
+    padding-left: 12rem;
+    /* font-size: 30px; */
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+.projects-button {
+    letter-spacing: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.7rem;
+    font-weight: 550;
+}
+.space1 {
+    padding: 0.5rem;
+}
+.space2 {
+    padding: 1rem;
+}
+.projects {
+    height: 50px;
+    background-color:goldenrod;
+}
+
+.name {
+    /* font-weight: 800; */
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    font-family: monospace;
+    font-weight: 800;
+
+    /* font-size:xx-larg; */
+    text-transform: uppercase;
+}
+/* Second Section */
+
+.about {
+    padding: 3rem 0 0 10rem;
+}
+.about-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 1rem;
+    padding-left: 23.4rem;
+}
+
+.section-2-line {
+    height: 2px;
+    width: 100px;
+    background-color: goldenrod;
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+}
+.about-info {
+    margin-left: 2.8rem;
+}
+
+.know-more-container {
+    display: flex;
+}
+.know-more-div {
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+.linkedin {
+    color: goldenrod;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+.know-me-heading {
+    padding-bottom: 2rem;
+    font-weight: 800;
+    font-size: larger;
+}
+.skills-name {
+    padding-bottom: 2rem;
+    font-weight: 800;
+    font-size: larger;
+}
+.skill {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    background: rgba(153, 153, 153, .2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    padding: 2rem;
+}
+
+.footer-socials {
+    display: flex;
+}
+.footer-intro {
+    padding-left: 2rem;
+    padding-right: 10rem;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.footer-name {
+    padding: 2rem;
+    font-weight: 600;
+}
+.copyright {
+    text-align: center;
+    padding: 1.7rem;
+}
+.footer-social-heading {
+    font-weight: 600;
+    padding: 2rem 0 2rem 0;
+}
